@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leo/CLionProjects/learning_cpp/InclusionGuardCar/car.h
+string
+-
+engine.h
+/Users/leo/CLionProjects/learning_cpp/InclusionGuardCar/engine.h
+
+/Users/leo/CLionProjects/learning_cpp/InclusionGuardCar/engine.h
+string
+-
+
+/Users/leo/CLionProjects/learning_cpp/main.cpp
+iostream
+-
+InclusionGuardCar/engine.h
+/Users/leo/CLionProjects/learning_cpp/InclusionGuardCar/engine.h
+InclusionGuardCar/car.h
+/Users/leo/CLionProjects/learning_cpp/InclusionGuardCar/car.h
+matrix/matrix.h
+/Users/leo/CLionProjects/learning_cpp/matrix/matrix.h
+
+/Users/leo/CLionProjects/learning_cpp/matrix/matrix.h
+vector
+-
+iostream
+-
+stdexcept
+-
+
